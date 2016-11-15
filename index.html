@@ -88,7 +88,7 @@
         </p>
         <hr>
 
-       
+
         <h2>Question 9:</h2>
         <p><span id="q9"></span>
         </p>
@@ -98,12 +98,12 @@
         <h2>Question 10:</h2>
         <p><span id="q10"></span>
         </p>
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         <hr>
         <hr>
         <h2 class="center">Advanced: </h2>
@@ -112,13 +112,37 @@
 
 
         <h2>Question A:</h2>
-        <p><span id="qa"></span>
+        <p>Please fill in the following information:</p>
+        <form name = "questionA1">
+          <p>Name</p>
+          <input id= "myName" type="text">
+        </form>
+        <form name = "questionA2">
+          <p>City</p>
+          <input id= "myCity" type="text">
+        </form>
+        <form name = "questionA3">
+          <p>Age</p>
+          <input id= "myAge" type="text">
+        </form>
+        <button id="callNameAgeCity">Submit</button>
+        <p>This is the data you entered: <span id="qa"></span>
         </p>
         <hr>
 
-       
+
         <h2>Question B:</h2>
-        <p><span id="qb"></span>
+        <p>Enter two values to calculate the area of a rectangle</p>
+        <form name = "questionB1">
+          <p>Width</p>
+          <input id= "width" type="text">
+        </form>
+        <form name = "questionB2">
+          <p>Length</p>
+          <input id= "length" type="text">
+        </form>
+        <button id="callSides">Submit</button>
+        <p>The area of your rectangle is: <span id="qb"></span></p>
         <hr>
 
 
@@ -130,21 +154,27 @@
 
         <h2>Question D:</h2>
         <!-- Add Form Code Here -->
-        <p><span id="qd"></span>
+        <p>Enter your name</p>
+        <p><input type="text" id="nameLength"></p>
+        <button id="callNameLength">Submit</button>
+        <p>The length of your name is: <span id="qd"></span>
         </p>
         <hr>
 
 
         <h2>Question E:</h2>
         <!-- Add Form Code Here -->
-        <p><span id="qe"></span></p>
+        <p>Submit your score</p>
+        <p><input type="text" id="yourScore"></p>
+        <button id="callScore">Submit</button>
+        <p><span id="qe" class="goodScore" class="ok" class="bad"></span></p>
         <hr>
 
-        
-        
+
+
 
     </main>
-
+<script type="text/javascript" src="main.js"></script>
 </body>
 
 </html>

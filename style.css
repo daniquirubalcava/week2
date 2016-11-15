@@ -3,7 +3,7 @@
 
 
 main {
-  width: 600px; 
+  width: 600px;
   margin: auto;
   padding-bottom: 300px;
 }
@@ -38,7 +38,7 @@ header h2 {
     <tbody>
     </tbody>
 </table>
-  
+
 }
 
 p {
@@ -47,21 +47,32 @@ p {
 }
 
 .center {
-  text-align: center;	
+  text-align: center;
 }
 
 .status-bad {
     color: red;
-} 
+}
 
 .status-good {
     color: green;
-} 
+}
 
 .status-ok {
 	color: orange;
 }
 
+.goodScore{
+  color: green;
+}
+
+.ok{
+  color: orange;
+}
+
+.bad{
+  color: red;
+}
 
 hr { margin: 50px 0;}
 
